@@ -6,6 +6,8 @@ Well, I work in a school and are constantly faced with students bringing me a de
 
 What this script does is wait for insertion of a USB Storage Device, upon detection it will scan the removable storage device for filetypes from a predetermined list, plus any extra filetypes specified through command line arguments and dumps them to an output folder.
 
+Builtin filetypes are: **\*.docx, \*.pptx, \*.xlsx, \*.pdf, \*.doc, \*.ppt, \*.xls**
+
 ## Usage
 
 This script has 2 command line arguments:
@@ -17,5 +19,6 @@ This script has 2 command line arguments:
 Both pretty self explanatory, -OutDir is a mandatory argument where you point your output directory for the extracted files and -FileTypes is an optional argument for specifying additional filetypes you would like extracted.
 
 ## Example
-
-> .\BrokenUSB.ps1 -OutDir E:\recover\ -FileType \*.mod,\*.png,\*.efi
+```
+.\BrokenUSB.ps1 -OutDir E:\recover\ -FileType \*.mod,\*.png,\*.efi
+```

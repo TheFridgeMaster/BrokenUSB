@@ -16,7 +16,7 @@ This script has 2 command line arguments:
 -FileType
 ```
 
-Both pretty self explanatory, -OutDir is a mandatory argument where you point your output directory for the extracted files and -FileTypes is an optional argument for specifying additional filetypes you would like extracted.
+Both pretty self explanatory, -OutDir is a mandatory argument where you point your output directory for the extracted files and -FileType is an optional argument for specifying additional filetypes you would like extracted.
 
 ## Example
 ```

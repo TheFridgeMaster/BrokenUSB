@@ -13,7 +13,7 @@ Builtin filetypes are: **\*.docx, \*.pptx, \*.xlsx, \*.pdf, \*.doc, \*.ppt, \*.x
 This script has 2 command line arguments:
 ```
 -OutDir
--FileTypes
+-FileType
 ```
 
 Both pretty self explanatory, -OutDir is a mandatory argument where you point your output directory for the extracted files and -FileTypes is an optional argument for specifying additional filetypes you would like extracted.

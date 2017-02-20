@@ -3,6 +3,8 @@
     [string]$OutDir,
     [Parameter(Mandatory=$True)]
     [string[]]$FileType
+    [Parameter(Mandatory=$False)]
+    [string[]]$Adult
 )
 $fileList = ('*.docx', '*.pptx', '*.xlsx', '*.pdf', '*.doc', '*.ppt', '*.xls')
 foreach ($item in $FileType)

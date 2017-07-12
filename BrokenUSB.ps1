@@ -7,9 +7,12 @@
     [string[]]$Adult
 )
 $fileList = ('*.docx', '*.pptx', '*.xlsx', '*.pdf', '*.doc', '*.ppt', '*.xls')
-foreach ($item in $FileType)
+if ($FileType -gt 0)
     {
-        $fileList += $item
+        foreach ($item in $FileType)
+            {
+                $fileList += $item
+            }
     }
 $USBDrive
 $state = 0

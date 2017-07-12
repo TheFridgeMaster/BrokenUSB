@@ -1,7 +1,7 @@
 ﻿param(
     [Parameter(Mandatory=$True)]
     [string]$OutDir,
-    [Parameter(Mandatory=$True)]
+    [Parameter(Mandatory=$False)]
     [string[]]$FileType
     [Parameter(Mandatory=$False)]
     [string[]]$Adult

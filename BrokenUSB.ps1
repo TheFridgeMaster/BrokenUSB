@@ -7,7 +7,7 @@
     [string[]]$Adult
 )
 $fileList = ('*.docx', '*.pptx', '*.xlsx', '*.pdf', '*.doc', '*.ppt', '*.xls')
-if ($FileType -gt 0)
+if ($FileType.Count -gt 0)
     {
         foreach ($item in $FileType)
             {
